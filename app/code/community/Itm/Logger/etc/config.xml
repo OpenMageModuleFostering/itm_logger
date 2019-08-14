@@ -3,7 +3,7 @@
 <config>
     <modules>
         <Itm_Logger>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </Itm_Logger>
     </modules>
     <global>
@@ -28,4 +28,21 @@
             </logger>
         </itm>
     </default>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <config>
+                            <children>
+                                <itm>
+                                    <title>ITM Logger Options</title>
+                                </itm>
+                            </children>
+                        </config>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
 </config>
