@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+
+<config>
+    <modules>
+        <Itm_Logger>
+            <version>0.1.0</version>
+        </Itm_Logger>
+    </modules>
+    <global>
+        <helpers>
+            <logger>
+                <class>Itm_Logger_Helper</class>
+            </logger>
+        </helpers>
+        <models>
+            <logger>
+                <class>Itm_Logger_Model</class>
+            </logger>
+        </models>
+    </global>
+    <default>
+        <itm>
+            <logger>
+                <enabled>0</enabled>
+                <onlydev>1</onlydev>
+                <firephp>1</firephp>
+                <chromephp>1</chromephp>
+            </logger>
+        </itm>
+    </default>
+</config>

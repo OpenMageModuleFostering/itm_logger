@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/ITM_Logger",
+    "type": "magento-module",
+    "license": "BSD",
+    "homepage": "",
+    "description": "This Extension enable the logging  with ChromePHP and FirePHP.",
+    "authors": [
+    {
+        "name": "Jens Averkamp",
+        "email": "j.averkamp@itm-systems.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>ITM_Logger</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>BSD</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This Extension enable the logging  with ChromePHP and FirePHP.</summary>
+    <description>This Extension enable the logging  with ChromePHP and FirePHP.</description>
+    <notes>ChromePHP and FirePHP support.</notes>
+    <authors><author><name>Jens Averkamp</name><user>Zeichen32</user><email>j.averkamp@itm-systems.com</email></author></authors>
+    <date>2012-10-02</date>
+    <time>10:11:26</time>
+    <contents><target name="magelib"><dir name="Itm"><dir name="ChromePhp"><file name="ChromePhp.php" hash="6cfd158a43f93c23d622ff101d85d84f"/><file name="README" hash="248a6810348f421e8088e5f15ffdcd95"/></dir><dir name="FirePhp"><file name="FirePHP.class.php" hash="48f5cd9953b22b2520dad0052bb63dfe"/><file name="FirePHP.class.php4" hash="7e3eedc65af89b608c61b8f245339abf"/><file name="LICENSE" hash="6069b4312400e0217c832242b0556b9e"/><file name="fb.php" hash="818b76e245f7c3f370ceba0bec1a53e3"/><file name="fb.php4" hash="2762f10e406c61531ead128394e135ff"/></dir></dir></target><target name="magecommunity"><dir name="Itm"><dir name="Logger"><dir name="Helper"><file name="Data.php" hash="11d6def9f9f4523de0dc683f46c1b286"/></dir><dir name="Model"><file name="ChromePhp.php" hash="50eeba1f5c4cc4f8cac5d3b3771fa189"/><file name="FirePhp.php" hash="4eccd43537ecfca912641ee58f5deaac"/><file name="Logger.php" hash="5805fb3bdcf8ca70475b4d88f5b1911d"/></dir><dir name="etc"><file name="adminhtml.xml" hash="26ea0d8b148585fa65447f5a8f0782c3"/><file name="config.xml" hash="ba204344abb4b29602f090d4ca210b35"/><file name="system.xml" hash="84788fd26e10e51f193d6617e9f09d48"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Itm_Logger.xml" hash="53d7caa96559b6177fd2f263d3c8c36c"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
